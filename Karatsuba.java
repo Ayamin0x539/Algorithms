@@ -36,7 +36,7 @@ public class Karatsuba {
 		return new String[] {first, last};
 	}
 	
-	// An exponent function. Works the same way as Math.pow, but with the long type.
+	// An exponent function. Works the same way as Math.pow, but with 64bit ints instead of double precision floats.
 	public static long power(long x, long y) {
 		if (y == 0)
 			return 1;
