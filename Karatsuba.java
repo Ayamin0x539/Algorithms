@@ -11,7 +11,7 @@
 
 public class Karatsuba {
 	
-	// Takes two integers and returns the maximum of them.
+	// Takes two integers and returns the maximum of them
 	public static int max(int x, int y) {
 		return (x>y)? x:y;
 	}
